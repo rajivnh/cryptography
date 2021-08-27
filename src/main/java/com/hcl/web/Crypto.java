@@ -32,7 +32,6 @@ public class Crypto<T> {
 	@SuppressWarnings("unchecked")
 	@PostMapping("/api/encrypt")
 	public T encrypt(@RequestBody Request request) {
-		//if(Optional.fromNullable(request.getText()).
 		Response response = new Response();
 		
 		try {

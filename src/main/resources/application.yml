@@ -11,10 +11,4 @@ eureka:
   client:
     region: default
     service-url:
-      defaultZone: http://127.0.0.1:83/eureka  
-      
-aes:
-  key: "s=Vq7qyo?)8xYq-n"
-
-bcrypt:
-  salt: $2a$12$8k4sarZ8GqPmkfeDX03Qte
+      defaultZone: http://127.0.0.1:83/eureka
